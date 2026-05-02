@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maison Dorée — Fine dining restaurant in New York. Reserve your table online or via WhatsApp. Exquisite cuisine, impeccable service, unforgettable memories.">
+  <meta name="theme-color" content="#0A0A0A">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Maison Dorée — Fine Dining">
+  <meta property="og:description" content="Where every meal becomes a memory. Reserve your table online or via WhatsApp.">
+  <meta property="og:type" content="restaurant">
+
+  <title>Maison Dorée — Fine Dining</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav__inner">
+
+        <!-- Logo -->
+        <a href="#hero" class="nav__logo" aria-label="Maison Dorée — Home">
+          <span class="nav__logo-text">Maison Dorée</span>
+          <span class="nav__logo-sub">Fine Dining · Est. 2009</span>
+        </a>
+
+        <!-- Nav links -->
+        <ul class="nav__menu" role="list">
+          <li><a href="#about"       class="nav__link">About</a></li>
+          <li><a href="#menu"        class="nav__link">Menu</a></li>
+          <li><a href="#gallery"     class="nav__link">Gallery</a></li>
+          <li><a href="#reservation" class="nav__link">Reservations</a></li>
+          <li><a href="#contact"     class="nav__link">Contact</a></li>
+        </ul>
+
+        <!-- CTA -->
+        <a href="#reservation" class="btn btn--primary nav__cta">Book a Table</a>
+
+        <!-- Hamburger (mobile) -->
+        <button class="nav__hamburger" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section id="hero" aria-label="Hero">
+    <!-- Background with parallax -->
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <div class="hero__content">
+      <span class="hero__label hero-animate-1">Fine Dining Experience</span>
+
+      <h1 class="hero__title hero-animate-2 text-shimmer">Maison Dorée</h1>
+
+      <p class="hero__subtitle hero-animate-3">
+        Where every meal becomes a memory. <br>
+        Exquisite cuisine crafted with passion, served with grace.
+      </p>
+
+      <div class="hero__actions hero-animate-4">
+        <a href="#reservation" class="btn btn--primary btn--lg">
+          Reserve a Table
+        </a>
+        <a id="hero-whatsapp" href="#" class="btn btn--ghost btn--lg" target="_blank" rel="noopener noreferrer">
+          <!-- WhatsApp icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero__scroll hero-animate-5" aria-hidden="true">
+      <span class="hero__scroll-line"></span>
+      <span style="font-size:0.65rem;letter-spacing:0.2em;">SCROLL</span>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════ -->
+  <section id="about" class="section-padding" aria-labelledby="about-title">
+    <div class="container">
+      <div class="about__grid">
+
+        <!-- Text column -->
+        <div class="about__text scroll-reveal--left">
+          <div class="section-heading section-heading--left">
+            <span class="section-label">Our Story</span>
+            <h2 class="section-title" id="about-title">Crafted with<br>Passion &amp; Purpose</h2>
+            <div class="divider">
+              <div class="divider-line"></div>
+              <div class="divider-diamond"></div>
+              <div class="divider-line divider-line--rev"></div>
+            </div>
+          </div>
+          <p class="about__body">
+            Founded in 2009 by Chef Antoine Dubois, Maison Dorée was born from a singular conviction: that dining is not merely sustenance, but one of life's most profound pleasures. Nestled in the heart of Manhattan, our restaurant has become a sanctuary for those who seek culinary excellence.
+          </p>
+          <p class="about__body">
+            Every dish on our menu is a love letter to classical French technique, reimagined with contemporary sensibility and the finest seasonal ingredients sourced from trusted farms and artisan producers around the world.
+          </p>
+          <p class="about__body">
+            Our sommelier team curates a cellar of over 800 labels, ensuring the perfect pairing for every occasion — from an intimate dinner for two to a milestone celebration with friends.
+          </p>
+
+          <!-- Stats -->
+          <div class="about__stats">
+            <div class="stat-card scroll-reveal stagger-1">
+              <span class="stat-card__number">2009</span>
+              <span class="stat-card__label">Est. in New York</span>
+            </div>
+            <div class="stat-card scroll-reveal stagger-2">
+              <span class="stat-card__number">3</span>
+              <span class="stat-card__label">Michelin Stars</span>
+            </div>
+            <div class="stat-card scroll-reveal stagger-3">
+              <span class="stat-card__number">500+</span>
+              <span class="stat-card__label">Five-Star Reviews</span>
+            </div>
+            <div class="stat-card scroll-reveal stagger-4">
+              <span class="stat-card__number">18</span>
+              <span class="stat-card__label">Signature Dishes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Images column -->
+        <div class="about__images scroll-reveal--right">
+          <img
+            class="about__img-main"
+            src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80"
+            alt="Elegant dining room at Maison Dorée with warm ambient lighting"
+            loading="lazy">
+          <img
+            class="about__img-accent"
+            src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=600&q=80"
+            alt="Chef Antoine Dubois carefully plating a signature dish"
+            loading="lazy">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       MENU
+  ══════════════════════════════════════ -->
+  <section id="menu" class="section-padding section-alt" aria-labelledby="menu-title">
+    <div class="container">
+
+      <div class="section-heading scroll-reveal">
+        <span class="section-label">The Menu</span>
+        <h2 class="section-title" id="menu-title">Culinary Masterpieces</h2>
+        <div class="divider">
+          <div class="divider-line"></div>
+          <div class="divider-diamond"></div>
+          <div class="divider-line divider-line--rev"></div>
+        </div>
+        <p class="section-subtitle">
+          Each dish is a testament to our commitment to exceptional ingredients, classical technique and creative vision.
+        </p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="menu__tabs" role="tablist" aria-label="Menu categories">
+        <button class="menu__tab active" data-category="starters" role="tab" aria-selected="true">Starters</button>
+        <button class="menu__tab" data-category="mains"    role="tab" aria-selected="false">Mains</button>
+        <button class="menu__tab" data-category="desserts" role="tab" aria-selected="false">Desserts</button>
+        <button class="menu__tab" data-category="drinks"   role="tab" aria-selected="false">Drinks</button>
+      </div>
+
+      <!-- Cards grid (populated by menu.js) -->
+      <div id="menu-grid" class="menu__grid" role="tabpanel"></div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       GALLERY
+  ══════════════════════════════════════ -->
+  <section id="gallery" class="section-padding" aria-labelledby="gallery-title">
+    <div class="container">
+
+      <div class="section-heading scroll-reveal">
+        <span class="section-label">Gallery</span>
+        <h2 class="section-title" id="gallery-title">A Visual Journey</h2>
+        <div class="divider">
+          <div class="divider-line"></div>
+          <div class="divider-diamond"></div>
+          <div class="divider-line divider-line--rev"></div>
+        </div>
+        <p class="section-subtitle">
+          A glimpse into the world of Maison Dorée — where aesthetics meet artistry on every plate and in every corner.
+        </p>
+      </div>
+
+      <!-- Gallery grid (populated by gallery.js) -->
+      <div id="gallery-grid" class="gallery__grid" role="list" aria-label="Restaurant gallery"></div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       RESERVATION
+  ══════════════════════════════════════ -->
+  <section id="reservation" class="section-padding section-alt" aria-labelledby="reservation-title">
+    <div class="container">
+
+      <div class="section-heading scroll-reveal">
+        <span class="section-label">Reservations</span>
+        <h2 class="section-title" id="reservation-title">Reserve Your Table</h2>
+        <div class="divider">
+          <div class="divider-line"></div>
+          <div class="divider-diamond"></div>
+          <div class="divider-line divider-line--rev"></div>
+        </div>
+        <p class="section-subtitle">
+          Book directly via WhatsApp below. We'll confirm your reservation within the hour.
+        </p>
+      </div>
+
+      <div class="reservation__grid">
+
+        <!-- ── Left: Booking Form ───────────────── -->
+        <div class="scroll-reveal--left">
+          <form id="booking-form" class="booking-form" novalidate aria-label="Reservation form">
+
+            <!-- Form fields wrapper (hidden on success) -->
+            <div id="booking-fields" class="form-fields">
+
+              <div class="form-row">
+                <!-- First name -->
+                <div class="form-field">
+                  <label class="form-label" for="booking-first-name">
+                    First Name <span aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    id="booking-first-name"
+                    class="form-input"
+                    type="text"
+                    placeholder="Jane"
+                    autocomplete="given-name"
+                    required
+                    aria-required="true"
+                    aria-describedby="booking-first-name-error">
+                  <span id="booking-first-name-error" class="form-error" role="alert"></span>
+                </div>
+
+                <!-- Last name -->
+                <div class="form-field">
+                  <label class="form-label" for="booking-last-name">
+                    Last Name <span aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    id="booking-last-name"
+                    class="form-input"
+                    type="text"
+                    placeholder="Smith"
+                    autocomplete="family-name"
+                    required
+                    aria-required="true"
+                    aria-describedby="booking-last-name-error">
+                  <span id="booking-last-name-error" class="form-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <!-- Email -->
+                <div class="form-field">
+                  <label class="form-label" for="booking-email">
+                    Email Address <span aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    id="booking-email"
+                    class="form-input"
+                    type="email"
+                    placeholder="jane@example.com"
+                    autocomplete="email"
+                    required
+                    aria-required="true"
+                    aria-describedby="booking-email-error">
+                  <span id="booking-email-error" class="form-error" role="alert"></span>
+                </div>
+
+                <!-- Phone -->
+                <div class="form-field">
+                  <label class="form-label" for="booking-phone">
+                    Phone Number <span aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    id="booking-phone"
+                    class="form-input"
+                    type="tel"
+                    placeholder="+1 555 123 4567"
+                    autocomplete="tel"
+                    required
+                    aria-required="true"
+                    aria-describedby="booking-phone-error">
+                  <span id="booking-phone-error" class="form-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <!-- Date -->
+                <div class="form-field">
+                  <label class="form-label" for="booking-date">
+                    Date <span aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    id="booking-date"
+                    class="form-input"
+                    type="date"
+                    required
+                    aria-required="true"
+                    aria-describedby="booking-date-error">
+                  <span id="booking-date-error" class="form-error" role="alert"></span>
+                </div>
+
+                <!-- Time -->
+                <div class="form-field">
+                  <label class="form-label" for="booking-time">
+                    Preferred Time <span aria-hidden="true">*</span>
+                  </label>
+                  <div class="select-wrap">
+                    <select
+                      id="booking-time"
+                      class="form-select"
+                      required
+                      aria-required="true"
+                      aria-describedby="booking-time-error">
+                      <option value="">Select a time</option>
+                      <!-- Populated by main.js -->
+                    </select>
+                  </div>
+                  <span id="booking-time-error" class="form-error" role="alert"></span>
+                </div>
+              </div>
+
+              <!-- Party size -->
+              <div class="form-field">
+                <label class="form-label" for="booking-party-size">
+                  Number of Guests <span aria-hidden="true">*</span>
+                </label>
+                <div class="select-wrap">
+                  <select
+                    id="booking-party-size"
+                    class="form-select"
+                    required
+                    aria-required="true"
+                    aria-describedby="booking-party-size-error">
+                    <option value="">Select guests</option>
+                    <option value="1">1 guest</option>
+                    <option value="2">2 guests</option>
+                    <option value="3">3 guests</option>
+                    <option value="4">4 guests</option>
+                    <option value="5">5 guests</option>
+                    <option value="6">6 guests</option>
+                    <option value="7">7 guests</option>
+                    <option value="8">8 guests</option>
+                    <option value="9">9 guests</option>
+                    <option value="10">10 guests</option>
+                    <option value="11-15">11–15 guests</option>
+                    <option value="16-20">16–20 guests</option>
+                    <option value="20+">20+ guests (private dining)</option>
+                  </select>
+                </div>
+                <span id="booking-party-size-error" class="form-error" role="alert"></span>
+              </div>
+
+              <!-- Special requests -->
+              <div class="form-field">
+                <label class="form-label" for="booking-special-requests">
+                  Special Requests
+                  <span style="font-weight:400;text-transform:none;letter-spacing:0;">(optional)</span>
+                </label>
+                <textarea
+                  id="booking-special-requests"
+                  class="form-textarea"
+                  rows="3"
+                  placeholder="Dietary requirements, allergies, special occasions, seating preferences…"
+                  aria-describedby="booking-special-requests-error"></textarea>
+                <span id="booking-special-requests-error" class="form-error" role="alert"></span>
+              </div>
+
+              <!-- Submit -->
+              <button id="booking-submit" type="submit" class="btn btn--whatsapp btn--lg form-submit">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Book via WhatsApp
+              </button>
+
+              <p style="font-size:0.75rem;color:var(--color-subtle);text-align:center;margin-top:1rem;">
+                We are closed on Mondays. Bookings confirmed within 1 hour.
+              </p>
+
+            </div><!-- /#booking-fields -->
+
+            <!-- Success state (shown after submission) -->
+            <div id="booking-success" class="booking-success" style="display:none;" aria-live="polite">
+              <div class="success-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 class="success-title">Request Sent!</h3>
+              <p class="success-text">
+                Your booking request has been sent via WhatsApp. <br>
+                We will confirm your reservation within 1 hour during business hours.
+              </p>
+              <br>
+              <a id="booking-reset" href="#" class="btn btn--secondary btn--sm">Make Another Booking</a>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- ── Right: WhatsApp Card + Info ──────── -->
+        <div class="scroll-reveal--right">
+
+          <!-- WhatsApp direct card -->
+          <div class="whatsapp-card">
+            <div class="whatsapp-card__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+
+            <h3 class="whatsapp-card__title">Prefer to Chat?</h3>
+            <p class="whatsapp-card__text">
+              Message us directly on WhatsApp and our reservations team will be happy to assist you with availability, special arrangements or any questions.
+            </p>
+
+            <button id="wa-direct-btn" class="btn btn--whatsapp" style="width:100%;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Start WhatsApp Chat
+            </button>
+          </div>
+
+          <!-- Info panel -->
+          <div class="reservation-info">
+            <p class="reservation-info__title">Good to Know</p>
+
+            <div class="reservation-info__item">
+              <!-- Clock icon -->
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <polyline points="12 6 12 12 16 14"/>
+              </svg>
+              <span>We confirm bookings within 1 hour during opening hours.</span>
+            </div>
+
+            <div class="reservation-info__item">
+              <!-- Calendar icon -->
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                <line x1="16" y1="2" x2="16" y2="6"/>
+                <line x1="8" y1="2" x2="8" y2="6"/>
+                <line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+              <span>We are closed on Mondays. Walk-ins welcome subject to availability.</span>
+            </div>
+
+            <div class="reservation-info__item">
+              <!-- Users icon -->
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+              <span>Parties of 10 or more, please contact us directly for private dining options.</span>
+            </div>
+
+            <div class="reservation-info__item">
+              <!-- Shield icon -->
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              <span>A credit card is not required. Cancellations accepted up to 24 hours prior.</span>
+            </div>
+          </div>
+
+        </div><!-- /.scroll-reveal--right -->
+
+      </div><!-- /.reservation__grid -->
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════ -->
+  <section id="contact" class="section-padding" aria-labelledby="contact-title">
+    <div class="container">
+
+      <div class="section-heading scroll-reveal">
+        <span class="section-label">Find Us</span>
+        <h2 class="section-title" id="contact-title">Visit Us</h2>
+        <div class="divider">
+          <div class="divider-line"></div>
+          <div class="divider-diamond"></div>
+          <div class="divider-line divider-line--rev"></div>
+        </div>
+      </div>
+
+      <div class="contact__grid scroll-reveal">
+
+        <!-- Address -->
+        <div class="contact__address">
+          <p class="contact__block-title">Address &amp; Contact</p>
+          <p>
+            123 Culinary Avenue<br>
+            New York, NY 10001<br>
+            United States
+          </p>
+          <br>
+          <p>
+            <a href="tel:+12345678900">+1 (234) 567-8900</a><br>
+            <a href="mailto:reservations@maisondoree.com">reservations@maisondoree.com</a>
+          </p>
+        </div>
+
+        <!-- Opening hours -->
+        <div>
+          <p class="contact__block-title">Opening Hours</p>
+          <table class="hours-table" aria-label="Opening hours">
+            <tbody id="hours-table">
+              <!-- Populated by main.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Social links -->
+        <div>
+          <p class="contact__block-title">Follow Us</p>
+          <div class="social-links">
+
+            <a href="#" class="social-link" aria-label="Follow us on Instagram" rel="noopener noreferrer">
+              <!-- Instagram icon -->
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+              @maisondoree
+            </a>
+
+            <a href="#" class="social-link" aria-label="Follow us on Facebook" rel="noopener noreferrer">
+              <!-- Facebook icon -->
+              <svg viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+              Maison Dorée NYC
+            </a>
+
+            <a href="#" class="social-link" aria-label="Follow us on Twitter / X" rel="noopener noreferrer">
+              <!-- Twitter / X icon -->
+              <svg viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+              @MaisonDoreeNYC
+            </a>
+
+            <a href="#" class="social-link" aria-label="Contact us on WhatsApp" rel="noopener noreferrer">
+              <!-- WhatsApp icon -->
+              <svg viewBox="0 0 24 24">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+              </svg>
+              WhatsApp Us
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Map embed -->
+      <div class="contact__map scroll-reveal">
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-74.00724411010742%2C40.71455%2C-73.98925781250001%2C40.7249&amp;layer=mapnik"
+          title="Maison Dorée location map"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+
+        <!-- Brand -->
+        <div>
+          <p class="footer__brand-name">Maison Dorée</p>
+          <p class="footer__brand-tagline">Where every meal becomes a memory.</p>
+          <p class="footer__brand-desc">
+            A fine dining destination in the heart of Manhattan, dedicated to culinary excellence, exceptional hospitality and unforgettable experiences.
+          </p>
+        </div>
+
+        <!-- Quick links -->
+        <div>
+          <p class="footer__nav-title">Navigation</p>
+          <nav class="footer__nav-links" aria-label="Footer navigation">
+            <a href="#about"       class="footer__nav-link">About</a>
+            <a href="#menu"        class="footer__nav-link">Menu</a>
+            <a href="#gallery"     class="footer__nav-link">Gallery</a>
+            <a href="#reservation" class="footer__nav-link">Reservations</a>
+            <a href="#contact"     class="footer__nav-link">Contact</a>
+          </nav>
+        </div>
+
+        <!-- Contact info -->
+        <div>
+          <p class="footer__nav-title">Contact</p>
+          <div class="footer__nav-links" style="color:var(--color-muted);font-size:0.85rem;gap:0.75rem;">
+            <span>123 Culinary Avenue<br>New York, NY 10001</span>
+            <a href="tel:+12345678900" class="footer__nav-link">+1 (234) 567-8900</a>
+            <a href="mailto:reservations@maisondoree.com" class="footer__nav-link">reservations@maisondoree.com</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          &copy; <span id="footer-year"></span> Maison Dorée. All rights reserved.
+        </p>
+        <div class="footer__socials">
+          <!-- Instagram -->
+          <a href="#" class="footer__social" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <!-- Facebook -->
+          <a href="#" class="footer__social" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+          <!-- Twitter / X -->
+          <a href="#" class="footer__social" aria-label="Twitter">
+            <svg viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- ══════════════════════════════════════
+       FLOATING WHATSAPP BUTTON
+  ══════════════════════════════════════ -->
+  <a
+    id="whatsapp-float"
+    class="whatsapp-float"
+    href="#"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp">
+    <!-- WhatsApp SVG -->
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-float__tooltip">Chat with us</span>
+  </a>
+
+
+  <!-- ══════════════════════════════════════
+       GALLERY LIGHTBOX
+  ══════════════════════════════════════ -->
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <img id="lightbox-img" class="lightbox__img" src="" alt="">
+
+    <button id="lightbox-close" class="lightbox__close" aria-label="Close image viewer">
+      &times;
+    </button>
+
+    <button id="lightbox-prev" class="lightbox__btn lightbox__prev" aria-label="Previous image">
+      &#8592;
+    </button>
+
+    <button id="lightbox-next" class="lightbox__btn lightbox__next" aria-label="Next image">
+      &#8594;
+    </button>
+
+    <div id="lightbox-counter" class="lightbox__counter" aria-live="polite"></div>
+  </div>
+
+
+  <!-- ══════════════════════════════════════
+       SCRIPTS
+  ══════════════════════════════════════ -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/booking.js"></script>
+
+  <script>
+    /* Footer year + hero WhatsApp link */
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+
+    var heroWa = document.getElementById('hero-whatsapp');
+    if (heroWa && typeof RESTAURANT !== 'undefined') {
+      var msg = encodeURIComponent("Hello! I'd like to make a reservation at " + RESTAURANT.name + ". Could you help me with availability?");
+      heroWa.href = 'https://wa.me/' + RESTAURANT.whatsappNumber + '?text=' + msg;
+    }
+  </script>
+
+</body>
+</html>
